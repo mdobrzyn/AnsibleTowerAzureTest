@@ -1,4 +1,4 @@
-- hosts: localhost
+- hosts: TestVm003
 tasks:
 - name: Create virtual machine
   azure_rm_virtualmachine:
