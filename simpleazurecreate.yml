@@ -1,5 +1,5 @@
 - name: Create virtual machine
-azure_rm_virtualmachine:
+  azure_rm_virtualmachine:
   resource_group: Testing
   name: testvm10
   vm_size: Standard_D1
