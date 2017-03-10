@@ -2,7 +2,7 @@
 tasks:
 - name: Create virtual machine
   azure_rm_virtualmachine:
-   resource_group: Testing
+   resource_group: ResGroupRH01
    name: testvm10
    vm_size: Standard_D1
    admin_username: chouseknecht
