@@ -8,12 +8,11 @@
   tasks:
   - name: Create virtual machine
     azure_rm_virtualmachine:
-    resource_group: ResGroupRH01
-    name: testvm10
-    vm_size: Standard_D1
-    admin_username: chouseknecht
-    ssh_password: false
-    ssh_public_keys: "{{ ssh_keys }}"
+      resource_group: ResGroupRH01
+      name: testvm10
+      vm_size: Standard_D1
+      admin_username: jzl2w8
+      admin_password: Can.red.hen
     image:
       offer: CentOS
       publisher: OpenLogic
