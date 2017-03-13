@@ -60,8 +60,8 @@
       storage_account: sjwtestaccount201
       storage_container: testvm001
       storage_blob: testvm001.vhd
-      admin_username: jzl2w8
-      admin_password: Can.red.hen
+      admin_username: "{{ usernn }}"
+      admin_password: "{{ passwdd }}"
       network_interfaces: testnic001
       image:
         offer: CentOS
