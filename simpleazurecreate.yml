@@ -13,7 +13,6 @@
       vm_size: Standard_D1
       admin_username: jzl2w8
       ssh_password: blue.red.fish
-      ssh_public_keys: "{{ ssh_keys }}"
       image:
         offer: CentOS
         publisher: OpenLogic
