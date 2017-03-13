@@ -12,7 +12,7 @@
       name: testvm10
       vm_size: Standard_D1
       admin_username: jzl2w8
-      admin_password: blue.red.fish
+      admin_password: B1ue.red.fish
       image:
         offer: CentOS
         publisher: OpenLogic
