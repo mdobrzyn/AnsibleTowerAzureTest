@@ -55,11 +55,11 @@
   - name: Create virtual machine
     azure_rm_virtualmachine:
       resource_group: ResGroupRH01
-      name: testvm001
+      name: testvm101
       vm_size: Standard_D1
       storage_account: sjwtestaccount201
-      storage_container: testvm001
-      storage_blob: testvm001.vhd
+      storage_container: testvm101
+      storage_blob: testvm101.vhd
       admin_username: "{{ usernn }}"
       admin_password: "{{ passwdd }}"
       network_interfaces: testnic001
