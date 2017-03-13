@@ -1,5 +1,11 @@
-- hosts: TestVm003
-tasks:
+- name: CREATE VM PLAYBOOK
+  hosts: localhost
+  connection: local
+  gather_facts: False
+  vars:
+    # vmname: josetestansible03
+   
+  tasks:
 - name: Create virtual machine
   azure_rm_virtualmachine:
    resource_group: ResGroupRH01
