@@ -1,4 +1,4 @@
-- name: CREATE VM PLAYBOOK
+- name: CREATE VM PLAYBOOK SIMPLE
   hosts: localhost
   connection: local
   gather_facts: False
@@ -6,15 +6,16 @@
     # vmname: josetestansible03
    
   tasks:
-  - name: Create virtual machine
+  - name: Create simple VM
     azure_rm_virtualmachine:
       resource_group: ResGroupRH01
       name: testvm10
       vm_size: Standard_D1
       admin_username: jzl2w8
-      admin_password: Can.red.hen
-    image:
-      offer: CentOS
-      publisher: OpenLogic
-      sku: '7.1'
-      version: latest
+      ssh_password: blue.red.fish
+      ssh_public_keys: "{{ ssh_keys }}"
+      image:
+        offer: CentOS
+        publisher: OpenLogic
+        sku: '7.1'
+        version: latest
