@@ -9,7 +9,7 @@
   - name: Create storage account
     azure_rm_storageaccount:
       resource_group: ResGroupRH01
-      name: sjwtestaccount201
+      name: mdbtestaccount201
       account_type: Standard_LRS
 
   - name: Create virtual network
