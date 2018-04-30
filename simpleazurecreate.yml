@@ -10,7 +10,7 @@
     azure_rm_virtualmachine:
       resource_group: ResGroupRH01
       name: testvm10
-      vm_size: Standard_D1
+      vm_size: Standard_B1s
       admin_username: "{{ usernn }}"
       admin_password: "{{ passwdd }}"
       image:
